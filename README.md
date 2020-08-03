@@ -9,11 +9,11 @@ A Visual Studio workspace and project holder to Emitto firmware code
 Adding all above together, it's very challenge to put together a concise thing to manage the source code. So I borrowed Visual Studio to manage the code editing.   
 
 # Usage
-(1) Open emittoCode.sln to use this tool.  
-(2) The compile and build needs use Particle cloud CLI.   
-       1) WSL ubuntu 14. Because the Particle CLI needs python 2.7  
-       2) With above setup, run "compileEmitto.sh" to build code on Particle cloud.   
-       3) Run "flashEmitto.sh" to load firmware on device via Particle cloud.   
+1. Open emittoCode.sln to use this tool.  
+2. The compile and build needs use Particle cloud CLI.   
+       - WSL ubuntu 14. Because the Particle CLI needs python 2.7  
+       - With above setup, run "compileEmitto.sh" to build code on Particle cloud.   
+       - Run "flashEmitto.sh" to load firmware on device via Particle cloud.   
        
  
  
