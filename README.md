@@ -2,9 +2,9 @@
 A Visual Studio workspace and project holder to Emitto firmware code
 
 # Purpose
-(1) Particle IoT platform doesn't provide a straightforward way for local compiling and building.   
-(2) Visual Studio Code does provide a way to do local compiling and editing. However VS Code doesn't provide a simple way to manage code project. It basically supports "folder" rather "project".  
-(3) The initial Emitto code was created to support 4 different MCUs, some of files/functions are shared among 4 products.   
+1. Particle IoT platform doesn't provide a straightforward way for local compiling and building.   
+2. Visual Studio Code does provide a way to do local compiling and editing. However VS Code doesn't provide a simple way to manage code project. It basically supports "folder" rather "project".  
+3. The initial Emitto code was created to support 4 different MCUs, some of files/functions are shared among 4 products.   
 
 Adding all above together, it's very challenge to put together a concise thing to manage the source code. So I borrowed Visual Studio to manage the code editing.   
 
