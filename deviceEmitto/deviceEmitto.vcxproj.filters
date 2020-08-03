@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{1b044194-5ce3-4aa9-890e-54e8965af044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{43dfa6f9-373b-446c-8902-9c238ae9afe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc">
+      <UniqueIdentifier>{230b9b63-6b61-4c8a-b522-659cd8e50d93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\emitto-firmware\Photon\EmittoStack\compileEmitto.sh" />
+    <None Include="..\..\..\emitto-firmware\Photon\EmittoStack\flashEmitto.sh" />
+    <None Include="..\..\..\emitto-firmware\Photon\EmittoStack\deviceEmitto.ino">
+      <Filter>Src</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\Adafruit_ILI9341.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\Adafruit_mfGFX.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\aes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\belkinWemo.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\CLI.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\deviceFSM.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\fonts.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\localComm.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\philipsHue.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\tplinkKasa.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\utils.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\emitto.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\Adafruit_ILI9341.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\Adafruit_mfGFX.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\aes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\belkinWemo.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\CLI.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\device.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\deviceCommands.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\deviceFSM.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\devLEDStatus.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\devParameters.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\fonts.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\hw_version.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\ircodes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\IRHub.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\irfunc.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\keyboardMacros.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\localComm.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\philipsHue.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\tplinkKasa.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\utils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\emitto.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\version_Core.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\version_Emitto.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\version.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\deviceEmitto.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{1bd6e207-06f1-44a8-b2f4-ab1fc8ca37b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc">
+      <UniqueIdentifier>{566baad7-055d-4f3e-ae7c-5ea9be403461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{f49c6470-dca5-44ea-9d26-d98d77f2fce4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\aes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\CLI.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\deviceFSM.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\doorOpener.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\localComm.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\utils.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\aes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\CLI.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\device.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\deviceCommands.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\deviceDoorOpener.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\deviceFSM.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\devLEDStatus.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\devParameters.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\doorOpener.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\hw_version.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\ircodes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\localComm.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\utils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\version_Core.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\version_Door.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\emitto-firmware\Photon\EmittoStack\deviceDoorOpener.ino">
+      <Filter>Src</Filter>
+    </None>
+  </ItemGroup>
+</Project>
