@@ -33,6 +33,15 @@
     <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\aes.cpp">
       <Filter>Common</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\learn-ir.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\learn-ir_rx.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\learn-ir_tx.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\CLI.h">
@@ -85,6 +94,9 @@
     </ClInclude>
     <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\aes.h">
       <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\learn-ir.h">
+      <Filter>Inc</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

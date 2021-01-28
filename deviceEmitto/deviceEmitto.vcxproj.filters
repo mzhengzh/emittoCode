@@ -10,6 +10,9 @@
     <Filter Include="Inc">
       <UniqueIdentifier>{230b9b63-6b61-4c8a-b522-659cd8e50d93}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Src\flashee">
+      <UniqueIdentifier>{06588148-51d4-4a5c-9c8d-9fb5434754bc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\emitto-firmware\Photon\EmittoStack\compileEmitto.sh" />
@@ -53,6 +56,21 @@
       <Filter>Common</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\emitto.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\serverComm.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\flashee\flashee-eeprom.cpp">
+      <Filter>Src\flashee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\download.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\menu.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\graph.cpp">
       <Filter>Src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -131,6 +149,33 @@
     </ClInclude>
     <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\deviceEmitto.h">
       <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\serverComm.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\icon.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\flashee\flashee-eeprom.h">
+      <Filter>Src\flashee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\flashee\flashee-eeprom-impl.h">
+      <Filter>Src\flashee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\flashee\integer.h">
+      <Filter>Src\flashee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\flashee\spark-unit.h">
+      <Filter>Src\flashee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\download.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\menu.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\graph.h">
+      <Filter>Src</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

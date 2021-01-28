@@ -92,6 +92,9 @@
     <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\CLI.cpp" />
     <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\deviceFSM.cpp" />
     <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\IRHub.cpp" />
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\learn-ir.cpp" />
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\learn-ir_rx.cpp" />
+    <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\learn-ir_tx.cpp" />
     <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\LearnIR.cpp" />
     <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\localComm.cpp" />
     <ClCompile Include="..\..\..\emitto-firmware\Photon\EmittoStack\utils.cpp" />
@@ -109,6 +112,7 @@
     <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\ircodes.h" />
     <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\irfunc.h" />
     <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\IRHub.h" />
+    <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\learn-ir.h" />
     <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\LearnIR.h" />
     <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\localComm.h" />
     <ClInclude Include="..\..\..\emitto-firmware\Photon\EmittoStack\utils.h" />
