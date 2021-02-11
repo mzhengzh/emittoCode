@@ -5,6 +5,11 @@ vs/.vs
 **/*.bak
 vs/*.aps
 .vs
+obj
+**/*.txt
+**/*.bmp
+
+
 
 # Prerequisites
 *.d
